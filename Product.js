@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
 // Slowing down the first animation
 gsap.to("#wine3", {
-    y: 1520,
+    y: 1500,
     delay:5,
     duration:10,
   
@@ -53,10 +53,11 @@ gsap.to("#wine3", {
     scrollTrigger: {
       trigger: ".part1",
       scroller: "body",
-      start: "20%",
-      end: "80%  110%",
-      scrub: true,  // Adding delay to slow down the animation
+      start: "70%",
+      end: "150%  180%",
+      scrub: 5,  // Adding delay to slow down the animation
       pin: true,
+      // markers:true,
   
     }
   });
