@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('teams.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* About Section Styles */
+.about {
+    padding: 20px 0;
+}
+
+.about h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+.about p {
+    text-align: center;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex: 1 1 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px 0;
+}
+
+/* Contact Information Section Styles */
+.contact-info {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-info h2 {
+    margin: 0 0 20px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
