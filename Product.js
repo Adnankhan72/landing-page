@@ -55,7 +55,7 @@ gsap.to("#wine3", {
       scroller: "body",
       start: "70%",
       end: "150%  180%",
-      scrub: 5,  // Adding delay to slow down the animation
+      scrub: 3,  // Adding delay to slow down the animation
       pin: true,
       // markers:true,
   
@@ -70,7 +70,7 @@ gsap.to("#wine3", {
         start:"50%",
         end:"top 10%",
       
-        scrub:3,
+        scrub:true,
     }
   })
   
